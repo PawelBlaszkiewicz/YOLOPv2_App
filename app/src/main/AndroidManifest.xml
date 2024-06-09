@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/car_warning"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/car_warning"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.YOLOPv2App"
+        tools:targetApi="31"
+        android:largeHeap="true"
+        android:hardwareAccelerated="true">
+        <activity
+            android:name="com.example.yolopv2app.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name="com.example.yolopv2app.VideoActivity" />
+        <activity android:name="com.example.yolopv2app.CameraActivity" />
+    </application>
+
+</manifest>
