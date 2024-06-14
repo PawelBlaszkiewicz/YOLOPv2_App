@@ -11,7 +11,6 @@ import android.graphics.Matrix
 import android.graphics.Paint
 import android.graphics.Typeface
 import android.os.SystemClock
-import android.util.Log
 import androidx.camera.core.ImageAnalysis
 import androidx.camera.core.ImageProxy
 import org.apache.commons.math3.analysis.function.Sigmoid
@@ -33,7 +32,6 @@ import kotlin.collections.component1
 import kotlin.collections.component2
 import kotlin.collections.component3
 import kotlin.collections.component4
-import kotlin.collections.contentToString
 import kotlin.collections.find
 import kotlin.collections.first
 import kotlin.collections.indexOfFirst

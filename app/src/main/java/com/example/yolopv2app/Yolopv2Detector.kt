@@ -5,30 +5,19 @@ import ai.onnxruntime.OnnxTensor
 import ai.onnxruntime.OrtEnvironment
 import ai.onnxruntime.OrtSession
 import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Color
-import android.graphics.Matrix
 import android.graphics.Paint
-import android.util.Log
 import org.apache.commons.math3.analysis.function.Sigmoid
-import org.apache.commons.math3.analysis.polynomials.PolynomialFunction
 import org.opencv.android.OpenCVLoader
-import org.opencv.android.Utils
 import org.opencv.core.*
 import org.opencv.dnn.Dnn.*
-import org.opencv.imgcodecs.Imgcodecs
-import org.opencv.imgproc.Imgproc
-import java.io.ByteArrayInputStream
-import java.io.ByteArrayOutputStream
 import java.nio.FloatBuffer
 import java.util.*
 import kotlin.math.abs
 import kotlin.math.absoluteValue
 import kotlin.math.pow
 import kotlin.math.sqrt
-import org.apache.commons.math3.fitting.PolynomialCurveFitter
-import org.apache.commons.math3.fitting.WeightedObservedPoints
 
 const val DIM_BATCH_SIZE = 1;
 const val DIM_PIXEL_SIZE = 3;
