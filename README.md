@@ -17,3 +17,4 @@ a następnie umieścić plik w folderze *\app\src\main\res\raw*.
 Przykłady działania aplikacji: 
 1. Nagranie w nocy https://youtube.com/watch/_qgPlkxNssc
 2. Nagranie w śniegu https://youtube.com/watch/yqSCuEDrwJg
+3. Nagranie w dobrych warunkach pogodowych https://youtube.com/watch/2p8PmVeoqcU
